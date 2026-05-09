@@ -1,0 +1,5 @@
+# K8s 安全审计工具 - 项目依赖
+# 使用官方 Kubernetes Python SDK 连接和操作集群
+kubernetes>=28.1.0
+# PyYAML 是 kubernetes SDK 的依赖，显式声明以确保版本兼容
+pyyaml>=6.0
